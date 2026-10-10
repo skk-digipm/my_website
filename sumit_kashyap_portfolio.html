@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff">
+<meta name="description" content="Sumit Kashyap — Senior Product Manager in digital banking, cards and payments.">
+<title>Sumit Kashyap — Product & Payments</title>
+<style>
+:root{--navy:#1434cb;--blue:#1a3fe8;--cyan:#00a6d2;--ink:#172b4d;--muted:#5c6b82;--pale:#f3f6fc;--line:#dce3ef;--white:#fff;--max:1160px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:82px}
+body{margin:0;background:#fff;color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+a{color:var(--navy);text-decoration:none}a:hover{text-decoration:underline}
+.nav{height:72px;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);position:sticky;top:0;z-index:10;border-bottom:1px solid #e8edf5}
+.nav-inner{height:100%;max-width:var(--max);margin:auto;padding:0 26px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.brand{font-weight:800;font-size:21px;letter-spacing:-.04em;color:var(--navy);display:flex;align-items:center;gap:10px}
+.brand-mark{width:30px;height:30px;border-radius:50%;background:linear-gradient(145deg,var(--navy),var(--cyan));display:inline-flex;align-items:center;justify-content:center;color:#fff;font-size:14px;font-weight:800}
+.nav-links{display:flex;align-items:center;gap:25px;font-size:13px;font-weight:700;color:#384a67}.nav-links a{color:inherit}.nav-links a:hover{color:var(--navy);text-decoration:none}
+.nav-cta{background:var(--navy);color:#fff!important;padding:10px 17px;border-radius:5px}.menu{display:none;border:0;background:none;font-size:25px;color:var(--navy)}
+.wrap{max-width:var(--max);margin:auto;padding:0 26px}
+.hero{position:relative;overflow:hidden;background:linear-gradient(120deg,#071b70 0%,#1434cb 58%,#087fbe 100%);color:#fff}
+.hero-inner{max-width:var(--max);margin:auto;padding:95px 26px 84px;position:relative;z-index:1}
+.hero:before,.hero:after{content:"";position:absolute;border:1px solid rgba(255,255,255,.16);border-radius:50%;width:520px;height:520px;right:-95px;top:-250px}
+.hero:after{width:370px;height:370px;right:90px;top:-165px;border-color:rgba(255,255,255,.12)}
+.hero-grid{display:grid;grid-template-columns:1.5fr .8fr;gap:50px;align-items:center}
+.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.16em;font-weight:800;color:#a9eaff}
+h1{font-size:clamp(42px,6.3vw,76px);line-height:1.04;letter-spacing:-.055em;margin:17px 0 23px;font-weight:800;max-width:760px}
+.hero p{font-size:19px;line-height:1.65;color:#e3ebff;max-width:710px;margin:0 0 28px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 19px;border-radius:5px;font-weight:700;font-size:14px;border:1px solid transparent;transition:transform .18s,background .18s}
+.btn:hover{text-decoration:none;transform:translateY(-2px)}.btn-light{background:#fff;color:var(--navy)}.btn-outline{border-color:rgba(255,255,255,.65);color:#fff}
+.hero-panel{padding:26px;border:1px solid rgba(255,255,255,.26);border-radius:12px;background:rgba(255,255,255,.09);backdrop-filter:blur(8px)}
+.panel-label{font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#a9eaff;font-weight:800}.hero-panel .years{font-size:62px;line-height:1;font-weight:800;letter-spacing:-.06em;margin:13px 0 8px}.hero-panel p{font-size:15px;margin:0;color:#f0f4ff}.panel-rule{height:1px;background:rgba(255,255,255,.23);margin:22px 0}.mini-stats{display:grid;grid-template-columns:1fr 1fr;gap:17px}.mini-stats strong{display:block;font-size:23px}.mini-stats span{font-size:12px;color:#d5e4ff}
+.section{padding:74px 0}.section.alt{background:var(--pale)}.section-head{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:30px}
+.section-tag{color:var(--navy);font-size:12px;text-transform:uppercase;letter-spacing:.14em;font-weight:800;margin-bottom:9px}
+h2{font-size:clamp(31px,4vw,47px);line-height:1.12;letter-spacing:-.045em;margin:0;font-weight:800;color:#12234b}
+.section-intro{max-width:450px;margin:0;color:var(--muted);font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:18px}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:27px;box-shadow:0 5px 18px rgba(21,45,91,.035)}
+.span-12{grid-column:span 12}.span-8{grid-column:span 8}.span-7{grid-column:span 7}.span-6{grid-column:span 6}.span-5{grid-column:span 5}.span-4{grid-column:span 4}
+.card h3{font-size:21px;line-height:1.25;margin:0 0 11px;letter-spacing:-.025em;color:#12234b}.card p{margin:0;color:var(--muted);font-size:14px}
+.icon-tile{height:42px;width:42px;display:flex;align-items:center;justify-content:center;border-radius:8px;background:#e9efff;color:var(--navy);font-size:21px;font-weight:800;margin-bottom:19px}
+.metric{font-size:49px;line-height:1;font-weight:800;color:var(--navy);letter-spacing:-.06em;margin:5px 0 14px}
+.metric small{font-size:20px;letter-spacing:0}
+.feature{background:linear-gradient(135deg,#edf5ff,#f8fbff);border-color:#d8e8ff}
+.pills{display:flex;gap:8px;flex-wrap:wrap;margin-top:19px}.pill{font-size:12px;font-weight:700;color:#24417e;background:#eaf0ff;border:1px solid #dbe5ff;padding:6px 10px;border-radius:4px}
+.timeline{display:grid;gap:0}.job{display:grid;grid-template-columns:195px 1fr;gap:28px;padding:28px 0;border-top:1px solid var(--line)}.job:first-child{border-top:0;padding-top:0}
+.job-date{font-size:13px;color:var(--muted);font-weight:700}.company{font-size:11px;text-transform:uppercase;letter-spacing:.13em;color:var(--navy);font-weight:800;margin-bottom:5px}
+.job h3{font-size:22px;margin:0 0 4px}.job .sub{font-size:14px;color:var(--muted);margin-bottom:12px}.job ul{margin:0;padding-left:19px;color:#35445e;font-size:14px}.job li{margin:7px 0;padding-left:3px}
+.skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.skill{padding:20px;border-radius:8px;background:#f4f7fd;border:1px solid #e6ecf6}.skill h3{font-size:16px;margin:0 0 8px}.skill p{font-size:13px}
+.edu-list{display:grid;gap:17px}.edu-item{border-bottom:1px solid var(--line);padding-bottom:15px}.edu-item:last-child{border:0;padding:0}.edu-item strong{display:block;font-size:15px}.edu-item span{font-size:13px;color:var(--muted)}
+.awards{display:flex;flex-wrap:wrap;gap:10px}.award{padding:11px 13px;border-radius:5px;background:#edf2fc;color:#30476f;font-size:13px;font-weight:700}
+.contact{background:linear-gradient(120deg,#081e77,#1434cb 60%,#087fbe);color:#fff;border-radius:12px;padding:53px 30px;text-align:center}.contact h2{color:#fff;max-width:740px;margin:0 auto 15px}.contact p{max-width:620px;margin:0 auto 24px;color:#e0e9ff}.contact .section-tag{color:#a9eaff}.contact .btn-outline{border-color:#d4e3ff}
+footer{padding:25px 0 38px;color:#74819a;font-size:12px}.footer-inner{border-top:1px solid var(--line);padding-top:19px;display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}
+@media(max-width:800px){.hero-grid{grid-template-columns:1fr}.hero-inner{padding:68px 24px}.hero-panel{max-width:440px}.span-8,.span-7,.span-6,.span-5,.span-4{grid-column:span 12}.section-head{display:block}.section-intro{margin-top:13px}.job{grid-template-columns:1fr;gap:8px}.skill-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:650px){.nav-inner{padding:0 18px}.menu{display:block}.nav-links{display:none;position:absolute;top:72px;left:0;right:0;padding:18px 22px 23px;background:#fff;border-bottom:1px solid var(--line);box-shadow:0 10px 20px #12234b12;flex-direction:column;align-items:stretch;gap:17px}.nav-links.open{display:flex}.nav-cta{text-align:center}.wrap{padding:0 18px}.hero-inner{padding:57px 18px}.hero-panel .years{font-size:54px}.section{padding:52px 0}.card{padding:23px}.skill-grid{grid-template-columns:1fr}h1{font-size:44px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="nav-inner">
+<a class="brand" href="#top"><span class="brand-mark">S</span> Sumit Kashyap</a>
+<button class="menu" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+<nav class="nav-links" id="navLinks" aria-label="Main navigation"><a href="#about">About</a><a href="#impact">Impact</a><a href="#experience">Experience</a><a href="#expertise">Expertise</a><a class="nav-cta" href="#contact">Let's connect</a></nav>
+</div></header>
+<main id="top">
+<section class="hero"><div class="hero-inner"><div class="hero-grid">
+<div><div class="eyebrow">Digital Banking · Cards · Payments</div>
+<h1>Building trusted payment experiences for a connected world.</h1>
+<p>I'm Sumit Kashyap, a product leader with 18 years of experience across digital banking, cards and payments — translating customer needs and complex technology into products that deliver measurable outcomes.</p>
+<div class="actions"><a class="btn btn-light" href="#experience">Explore my experience&nbsp; ↗</a><a class="btn btn-outline" href="mailto:kumar82.sumit@gmail.com">Contact me</a></div></div>
+<aside class="hero-panel"><div class="panel-label">Product leadership at a glance</div><div class="years">18<span style="font-size:25px;letter-spacing:0"> yrs</span></div><p>Experience in product management, solutioning, delivery and implementation across banking and payments.</p><div class="panel-rule"></div><div class="mini-stats"><div><strong>5</strong><span>Organizations</span></div><div><strong>APAC · MEA · EU</strong><span>Markets & regions</span></div></div></aside>
+</div></div></section>
+
+<section class="section wrap" id="about"><div class="section-head"><div><div class="section-tag">01 / About</div><h2>Strategy meets execution.</h2></div><p class="section-intro">I connect customer research, business priorities and engineering delivery to build secure, intuitive and scalable banking experiences.</p></div>
+<div class="grid">
+<article class="card span-7 feature"><div class="icon-tile">↗</div><h3>From customer problem to product outcome.</h3><p>My work spans roadmap definition, user experience improvements, API integrations, Agile delivery, payment processing and settlement. I collaborate across business, engineering, UX, operations and compliance teams to turn ideas into dependable products.</p><div class="pills"><span class="pill">Customer-centric</span><span class="pill">Data-informed</span><span class="pill">Cross-team collaboration</span><span class="pill">Agile execution</span></div></article>
+<article class="card span-5"><div class="icon-tile">◎</div><h3>Where I create value</h3><p>Digital banking journeys, debit-card controls, card-network integrations, payment infrastructure, risk reduction and delivery efficiency.</p><div class="pills"><span class="pill">Product strategy</span><span class="pill">Cards & payments</span><span class="pill">API-led solutions</span></div></article>
+</div></section>
+
+<section class="section alt" id="impact"><div class="wrap"><div class="section-head"><div><div class="section-tag">02 / Selected impact</div><h2>Outcomes over output.</h2></div><p class="section-intro">A few measurable results from product initiatives and payment technology programs in my career.</p></div>
+<div class="grid">
+<article class="card span-4"><div class="icon-tile">↗</div><div class="metric">10<small>%</small></div><h3>Higher mobile adoption</h3><p>Digital Debit Card journey and Spend Control APIs at Standard Chartered.</p></article>
+<article class="card span-4"><div class="icon-tile">◉</div><div class="metric">15<small>%</small></div><h3>Feature engagement uplift</h3><p>UI/UX improvements to the SC Mobile transaction activity dashboard.</p></article>
+<article class="card span-4"><div class="icon-tile">✓</div><div class="metric">&gt;90<small>%</small></div><h3>On-time delivery</h3><p>Agile execution and development-cycle improvements with engineering teams.</p></article>
+<article class="card span-6"><div class="icon-tile">₹</div><div class="metric">₹20M</div><h3>Saved over two years</h3><p>In-house RuPay transaction simulator reduced vendor dependency.</p></article>
+<article class="card span-6"><div class="icon-tile">⌁</div><div class="metric">60<small>%</small></div><h3>Less manual QA review</h3><p>Custom transaction-validation tooling automated review and enhanced test coverage.</p></article>
+</div></div></section>
+
+<section class="section wrap" id="experience"><div class="section-head"><div><div class="section-tag">03 / Career</div><h2>Experience built across the ecosystem.</h2></div><p class="section-intro">From customer-facing digital banking to the underlying infrastructure that moves payments securely and reliably.</p></div>
+<div class="card"><div class="timeline">
+<article class="job"><div class="job-date">Jul 2024 — Present<br>Digital Banking</div><div><div class="company">Standard Chartered</div><h3>Senior Product Manager — Digital Banking</h3><div class="sub">Kuala Lumpur / Global markets</div><ul>
+<li>Led design of the Digital Debit Card journey and Spend Control APIs, improving mobile adoption by 10% and supporting higher transaction volumes and customer satisfaction.</li>
+<li>Defined and executed the product roadmap, aligned to evolving business needs and strategic initiatives.</li>
+<li>Improved the SC Mobile transaction activity dashboard UI/UX, driving a 15% uplift in feature engagement.</li>
+<li>Led Agile execution with engineering teams, improving sprint efficiency to over 90% on-time delivery.</li>
+<li>Used data-driven insights to iterate on features and contributed to planning for new payment processing and settlement capabilities.</li>
+</ul></div></article>
+<article class="job"><div class="job-date">Sep 2020 — Jun 2024<br>Kuala Lumpur, Malaysia</div><div><div class="company">Tech Mahindra</div><h3>Product Manager — Digital Banking</h3><div class="sub">Client: Standard Chartered Bank</div><ul>
+<li>Orchestrated payment-solution rollouts across Standard Chartered markets, leveraging A/B testing to optimize adoption.</li>
+<li>Defined, prioritized and aligned product backlogs with organizational goals across APAC and MEA.</li>
+<li>Collaborated with engineering, UX, operations and compliance teams to ensure timely delivery.</li>
+<li>Conducted market research and competitive analysis to identify gaps and improve digital banking experiences.</li>
+<li>Led debit-card API integration, reducing fraud by 5% through tokenization and user-control flows.</li>
+</ul></div></article>
+<article class="job"><div class="job-date">Jul 2014 — Jul 2020<br>Pune, India</div><div><div class="company">Fiserv</div><h3>Techno Functional Lead — Product Owner</h3><div class="sub">Clients: Banks and financial institutions in the US, Canada and Caribbean</div><ul>
+<li>Delivered 30+ compliance and regulatory projects for Visa, Mastercard, Pulse and STAR networks.</li>
+<li>Led product design and launch of card-control features in the Card Valet app, enhancing security and user control.</li>
+<li>Developed a contactless-payments proof of concept that won senior-leadership approval in a company-wide hackathon.</li>
+<li>Partnered with engineering, QA and compliance teams on ATM, POS and mobile-banking solutions, maintaining over 95% delivery accuracy.</li>
+</ul></div></article>
+<article class="job"><div class="job-date">Nov 2011 — Jul 2014<br>Mumbai, India</div><div><div class="company">National Payments Corporation of India (NPCI)</div><h3>Technical Manager — RuPay Product Development</h3><div class="sub">Banks and financial institutions in India</div><ul>
+<li>Led implementation of India’s first domestic card scheme, RuPay, including EFT workflows and integration with the National Financial Switch.</li>
+<li>Led solutioning for ATM, POS, EMV, IMPS and e-commerce payment flows.</li>
+<li>Developed an in-house transaction simulator, saving ₹20M (approximately US$250K) over two years.</li>
+<li>Built a transaction-validation tool that reduced manual QA review by 60%; supported PCI-DSS-compliant key management.</li>
+<li>Worked with banks and regulators to onboard participants into the RuPay ecosystem.</li>
+</ul></div></article>
+<article class="job"><div class="job-date">Jul 2007 — Oct 2011<br>Mumbai & Pune, India</div><div><div class="company">Euronet Worldwide</div><h3>Senior Software Engineer</h3><div class="sub">European banks and financial institutions</div><ul>
+<li>Led implementation of 4,000+ white-label ATMs across Europe, generating an additional US$4M revenue over three years.</li>
+<li>Managed ATM/POS acquiring and Visa/Mastercard integrations to enhance payment-processing efficiency.</li>
+<li>Led disaster-recovery planning and delivered compliance-driven mandates for Visa and Mastercard.</li>
+<li>Implemented EMV and non-EMV ATM solutions across NCR and Diebold environments, POS and settlement systems.</li>
+</ul></div></article>
+</div></div></section>
+
+<section class="section alt" id="expertise"><div class="wrap"><div class="section-head"><div><div class="section-tag">04 / Expertise</div><h2>Product craft. Payments depth.</h2></div><p class="section-intro">A blend of product leadership, technical payments experience and cross-functional execution.</p></div>
+<div class="grid"><article class="card span-12"><div class="skill-grid">
+<div class="skill"><h3>Product management</h3><p>Roadmaps · Backlog prioritization · User research · Market analysis · Feature iteration</p></div>
+<div class="skill"><h3>Digital banking</h3><p>Mobile banking · Debit cards · Card controls · Spend controls · API integrations</p></div>
+<div class="skill"><h3>Cards & payments</h3><p>Visa · Mastercard · RuPay · ATM/POS · EMV · IMPS · EFT · Tokenization · Settlement</p></div>
+<div class="skill"><h3>Agile delivery</h3><p>SAFe 5 POPM · Cross-functional teams · Sprint execution · Release delivery</p></div>
+<div class="skill"><h3>Risk & compliance</h3><p>Regulatory delivery · Fraud reduction · PCI-DSS · Secure payment flows · Resilience</p></div>
+<div class="skill"><h3>Stakeholder leadership</h3><p>Business and technology alignment · Engineering · QA · Operations · Compliance</p></div>
+</div></article>
+<article class="card span-7"><div class="section-tag">Certifications & credentials</div><h3>Learning that supports delivery.</h3><div class="pills"><span class="pill">Certified SAFe® 5 Product Owner/Product Manager</span><span class="pill">Postilion — Realtime & Postcard</span><span class="pill">Verified International Academic Qualifications</span></div><p style="margin-top:18px">Languages: English (full professional proficiency) · Hindi (native or bilingual proficiency)</p></article>
+<article class="card span-5"><div class="section-tag">Education</div><div class="edu-list"><div class="edu-item"><strong>The George Washington University</strong><span>Associate Degree — Business Analysis · 2017</span></div><div class="edu-item"><strong>GEIT, Dehradun</strong><span>Engineering — Electronics & Communication · 2001–2005</span></div><div class="edu-item"><strong>St. Gabriel's Academy, Roorkee</strong><span>School education</span></div></div></article>
+<article class="card span-12"><div class="section-tag">Recognition</div><div class="awards"><span class="award">Star Performer Award — Q1</span><span class="award">Spot Bonus — Fall Mandates & Disaster Recovery Planning</span><span class="award">Living Proof Award — Earn Client Trust Everyday</span></div></article>
+</div></div></section>
+
+<section class="section wrap" id="contact"><div class="contact"><div class="section-tag">05 / Connect</div><h2>Let's make the next payment experience better.</h2><p>Open to conversations about digital banking, product strategy, cards, payments and building customer-centric financial products.</p><div class="actions" style="justify-content:center"><a class="btn btn-light" href="mailto:kumar82.sumit@gmail.com">Email Sumit ↗</a><a class="btn btn-outline" href="https://www.linkedin.com/in/sumitkashyap0207/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn ↗</a></div><p style="margin-top:22px;font-size:14px">+91 93255 74946 · Kuala Lumpur, Malaysia · RPT Holder</p></div></section>
+</main>
+<footer class="wrap"><div class="footer-inner"><span>© <span id="year"></span> Sumit Kashyap</span><span>Digital banking · Cards · Payments</span><a href="#top" style="color:inherit">Back to top ↑</a></div></footer>
+<script>
+const menuBtn=document.getElementById('menuBtn'),navLinks=document.getElementById('navLinks');
+menuBtn.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));menuBtn.textContent=open?'×':'☰';});
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navLinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');menuBtn.textContent='☰';}));
+document.getElementById('year').textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
